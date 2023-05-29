@@ -1,7 +1,3 @@
-.bigbtn{
-  width: 90px;
-  height: 20px;
-  background-color: aqua;
-  padding: 20px;
-  border: 0;
+.orange{
+  color: rgb(255, 204, 0);
 }
