@@ -15,10 +15,3 @@ export default function DarkModeProvider({ children }: { children: ReactNode }) 
     }
     return <DarkModeContext.Provider value={DarkMode}>{children}</DarkModeContext.Provider>
 }
-
-
-
-
-
-
-

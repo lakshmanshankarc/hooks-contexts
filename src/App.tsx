@@ -1,15 +1,13 @@
-// import ClassicCounter from './hooks/usestate'
-// import Statfeull from './hooks/state'
+
 import { useContext } from "react"
 import "./App.css"
-import Memoize from "./hooks/Caching/useMemo"
+
 import { DarkModeContext } from "./hooks/DarkContext/Provider"
 
 function App() {
   const theme=useContext(DarkModeContext)
   return (
     <>
-      <Memoize />
       <button onClick={() => theme?.changeTheme()}>
         ChangeTheme
       </button>
